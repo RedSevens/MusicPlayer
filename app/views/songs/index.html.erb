@@ -1,0 +1,23 @@
+<h1>Listing songs</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>File Path</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @songs.each do |song| %>
+      <tr>
+        <td><%= song.title %></td>
+        <td><%= song.file %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Song', new_playlist_song_path %>
