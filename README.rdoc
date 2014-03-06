@@ -1,13 +1,15 @@
-== How to use the website ==
+== How to use the website
 
 Steps to upload songs:
 
-	* Create a playlist called "Primary Radio Station". This would be used for any song that you add, and would be available to every user eventually. *
+	* Create a playlist called "Primary Radio Station". This would be used for any song that you add, and would be available to every user eventually.
 
-	* Click "Show" on the playlist you just created and here you will be able to upload a song. *
+	* Click "Show" on the playlist you just created and here you will be able to upload a song.
 
-	* Set a song title and choose the music file. *
+	* Set a song title and choose the music file.
 
-	* Although you shouldn't be able to see the path, for testing purposes you can find all the songs  <tt>http://localhost:3000/songs</tt> *
+	* Although you shouldn't be able to see the path, for testing purposes you can find all the songs  <tt>http://localhost:3000/songs</tt>
+
+	* ...
 
 NOTE: We can create our own custom designable song player using jPlayer by using the json data given by the rails scaffold (We'd have to look into how this actually works later.)
