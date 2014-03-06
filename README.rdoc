@@ -1,28 +1,13 @@
-== README
+== How to use the website ==
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Steps to upload songs:
 
-Things you may want to cover:
+	* Create a playlist called "Primary Radio Station". This would be used for any song that you add, and would be available to every user eventually.
 
-* Ruby version
+	* Click "Show" on the playlist you just created and here you will be able to upload a song.
 
-* System dependencies
+	* Set a song title and choose the music file.
 
-* Configuration
+	* Although you shouldn't be able to see the path, for testing purposes you can find all the songs  <tt>http://localhost:3000/songs</tt>
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+NOTE: We can create our own custom designable song player using jPlayer by using the json data given by the rails scaffold (We'd have to look into how this actually works later.)
